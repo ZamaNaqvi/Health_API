@@ -10,7 +10,7 @@ const { authMiddleware } = require("../middleware/auth");
 const router = express.Router();
 
 router.post(
-  "/register",
+  "/api/register",
   [
     body("email").isEmail(),
     body("password").isLength({ min: 6 }),
