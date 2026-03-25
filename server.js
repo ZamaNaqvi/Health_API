@@ -4,9 +4,9 @@ const mongoose = require("mongoose");
 const config = require("./config");
 
 const authRoutes = require("./routes/auth");
-const doctorRoutes = require("./routes/doctor");
-const profileRoutes = require("./routes/profile");
-const symptomRoutes = require("./routes/symptomcheck");
+const doctorRoutes = require("./routes/doctors");
+const profileRoutes = require("./routes/profiles");
+const symptomRoutes = require("./routes/symptomChecks");
 
 const app = express();
 
